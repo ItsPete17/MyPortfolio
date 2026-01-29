@@ -8,6 +8,7 @@ import {
   ChevronLeft,
   ChevronRight,
   CreditCard,
+  Facebook, // <--- ADDED THIS
   File,
   FileText,
   HelpCircle,
@@ -15,6 +16,7 @@ import {
   Laptop,
   Loader2,
   LucideProps,
+  Mail, // <--- ADDED THIS (Fixes your error)
   Menu,
   Moon,
   MoreVertical,
@@ -68,6 +70,11 @@ import {
 } from "react-icons/si";
 
 export const Icons = {
+  // Missing icons that caused the error:
+  mail: Mail,          // <--- THE FIX
+  facebook: Facebook,  // <--- THE FIX
+
+  // Existing icons:
   contact: Phone,
   gitRepoIcon: BookMarked,
   gitOrgBuilding: Building,
