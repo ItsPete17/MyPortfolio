@@ -8,7 +8,7 @@ import {
   ChevronLeft,
   ChevronRight,
   CreditCard,
-  Facebook, // <--- ADDED THIS
+  Facebook, // Keeps Facebook
   File,
   FileText,
   HelpCircle,
@@ -16,7 +16,7 @@ import {
   Laptop,
   Loader2,
   LucideProps,
-  Mail, // <--- ADDED THIS (Fixes your error)
+  Mail, // Keeps Mail
   Menu,
   Moon,
   MoreVertical,
@@ -37,6 +37,7 @@ import {
 import { AiFillStar } from "react-icons/ai";
 import { BiLaugh, BiSolidUser } from "react-icons/bi";
 import { BsInfoCircle, BsQuestionCircle } from "react-icons/bs";
+import { FaJava } from "react-icons/fa"; // 👈 ADDED THIS IMPORT
 import {
   HiBriefcase,
   HiOutlineExternalLink,
@@ -70,11 +71,12 @@ import {
 } from "react-icons/si";
 
 export const Icons = {
-  // Missing icons that caused the error:
-  mail: Mail,          // <--- THE FIX
-  facebook: Facebook,  // <--- THE FIX
+  // 👇 ADDED THIS (Fixes the error)
+  java: FaJava,
 
-  // Existing icons:
+  // Existing icons
+  mail: Mail,
+  facebook: Facebook,
   contact: Phone,
   gitRepoIcon: BookMarked,
   gitOrgBuilding: Building,

@@ -10,4 +10,17 @@ export const siteConfig = {
   },
   authorName: "Khomphakdy Anousone",
   username: "Anousone",
+
+  keywords: [
+    "Khomphakdy Anousone",
+    "Full Stack Developer",
+    "React",
+    "Next.js",
+    "IoT",
+    "Portfolio",
+    "Web Development",
+    "Software Engineer",
+  ],
+  iconIco: "/favicon.ico",
+  logoIcon: "/favicon.ico",
 };
